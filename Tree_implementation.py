@@ -8,6 +8,10 @@ from collections import deque
 
 
 class TreeNode(object):
+    """
+    Basic tree structure
+    
+    """
     def __init__(self, val):
         self.val = val
         self.left = None
